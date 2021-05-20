@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+    - name: First_palybook
+      yum:
+        name: httpd
+        state: present
